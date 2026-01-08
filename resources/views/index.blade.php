@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-
+<main>
 <section class="swiper-container js-swiper-slider swiper-number-pagination slideshow" data-settings='{
         "autoplay": {
           "delay": 5000
@@ -917,5 +917,6 @@
     </div>
 
     <div class="mb-3 mb-xl-5 pt-1 pb-4"></div>
+  </main>
 
 @endsection
